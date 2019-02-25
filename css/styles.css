@@ -1,0 +1,17 @@
+title{
+  background-color: red;
+}
+body{
+  background-color: pink;
+}
+#retake {
+  display: none;
+}
+body{
+  text-align:center;
+  font-size: 30px;
+}
+h5{
+  color: blue;
+  font-size:40px;
+}

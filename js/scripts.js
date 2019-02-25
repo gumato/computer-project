@@ -11,6 +11,8 @@ var result = question1 + question2 + question3 + question4 + question5;
 //$("score").text("your score is" + result);
 document.getElementById("display").innerHTML= result;
 $("#display").text("you got " + result);
+$("#form").hide();
+$("#retake").show();
 
 event.preventDefault();
 });
