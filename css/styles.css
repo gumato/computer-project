@@ -2,7 +2,7 @@ title{
   background-color: red;
 }
 body{
-  background-color: pink;
+  background-color: grey;
 }
 #retake {
   display: none;
@@ -13,5 +13,5 @@ body{
 }
 h5{
   color: blue;
-  font-size:40px;
+  font-size:35px;
 }
