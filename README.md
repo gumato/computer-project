@@ -1,5 +1,5 @@
 # {JAVASCRIPT QUIZ}
-####javascript.16th february 2019}
+####javascript.24th february 2019}
 #### By **Gumato Sharamo**
 ## Description
 JAVASCRIPT quiz is web page that is used to asked question and get answers from the question.          
