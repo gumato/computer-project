@@ -9,11 +9,19 @@ var question5 = parseInt($('input[name = "five"]:checked').val());
 
 var result = question1 + question2 + question3 + question4 + question5;
 //$("score").text("your score is" + result);
+var percent=(result*100)/75
 document.getElementById("display").innerHTML= result;
-$("#display").text("you got " + result);
+document.getElementById("percent").innerHTML= "Your score is" + " " + percent + "%" ;
+$("#display").text("You got " + result + " " + "out of 75");
 $("#form").hide();
 $("#retake").show();
 
 event.preventDefault();
 });
 });
+$(document).ready(function() {
+      $(".clickable").click(function() {
+        $("#hint-showing").toggle();
+        $("#hint-hidden").toggle();
+      });
+    });

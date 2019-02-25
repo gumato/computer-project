@@ -3,19 +3,27 @@
    <head>
        <meta charset="utf-8">
        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-   <title>JAVASCRIPTS - QUIZ</title>
+   <title>javascripts quiz</title>
    <link href="css/styles.css" rel="stylesheet" type="text/css">
    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
    <script src="js/scripts.js"></script>
 
    </head>
    <body>
+     <div id="hint-hidden">
+              <p>Get relax here. <span class="clickable">Click here</span> to see the Quiz Hint!</p>
+            </div>
 
+            <div id="hint-showing">
+              <p>No reason to stress when fail now! <span class="clickable">Click here</span> to close the hint box.</p>
+              <img src="img/animal.jpg">
+      </div>
       <div class="container">
           <div class="row">
               <div class="column">
           <div class="jumbotron">
-              <h1>javascripts-quiz</h1>
+              <h1>SOWETO CLUB</h1>
+              
               <P>Final test on javascript,Answer the questions correctly.</P>
        </div>
  <form id="form">
@@ -71,6 +79,7 @@
  </form>
 
         <div id="display"></div>
+        <p id ="percent"></p>
        </div>
        <a href="index.html"><button type="button" name="button" id="retake">RETAKE TEST</button></a>
 
