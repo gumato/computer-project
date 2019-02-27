@@ -2,7 +2,7 @@ title{
   background-color: red;
 }
 body{
-background-image: url('../img/bg.jpg');
+background-image:url('../img/bg.jpg');
 background-size: cover;
 }
 #retake {
